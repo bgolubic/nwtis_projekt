@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+	<context-param>
+		<param-name>konfiguracija</param-name>
+		<param-value>NWTiS_bgolubic.txt</param-value>
+	</context-param>
+	<listener>
+    	<listener-class>org.foi.nwtis.bgolubic.aplikacija_2.slusaci.KontekstSlusac</listener-class>
+	</listener>
+	<filter>
+        <filter-name>AplikacijskiFilter</filter-name>
+        <filter-class>org.foi.nwtis.bgolubic.aplikacija_2.filteri.AplikacijskiFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AplikacijskiFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+</web-app>

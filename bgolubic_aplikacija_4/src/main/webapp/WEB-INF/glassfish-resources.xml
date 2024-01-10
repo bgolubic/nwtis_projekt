@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Resource Definitions//EN" "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
+<resources>
+
+    <jdbc-connection-pool name="jdbc/nwtisPool"
+                          res-type="javax.sql.DataSource"
+                          datasource-classname="org.hsqldb.jdbc.JDBCDataSource"
+                          pool-resize-quantity="2"
+                          max-pool-size="32"
+                          steady-pool-size="8">
+        <property name="URL" value="jdbc:hsqldb:hsql://200.20.0.3:9001/nwtis_bp"/>
+        <property name="User" value="nwtis_bp"/>
+        <property name="Password" value="nwtis#bp"/>
+    </jdbc-connection-pool>
+ 
+    <jdbc-resource enabled="true" jndi-name="jdbc/nwtis_bp" object-type="user" pool-name="jdbc/nwtisPool"/>
+ 
+</resources>
+ 

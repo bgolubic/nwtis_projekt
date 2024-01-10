@@ -1,0 +1,6 @@
+#NWTiS bgolubic 2023.
+#Fri Mar 24 08:06:05 CET 2023
+maksCekanje=0
+mreznaVrata=8000
+brojCekaca=10
+brojRadnika=10

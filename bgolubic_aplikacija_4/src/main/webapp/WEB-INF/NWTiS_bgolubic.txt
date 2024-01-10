@@ -1,0 +1,10 @@
+#NWTiS bgolubic 2023.
+#Thu Mar 23 14:51:16 CET 2023
+adresaPosluziteljaAP1=10.0.2.15
+mreznaVrataPosluziteljaAP1=8000
+adresaPosluziteljaAP2=http://200.20.0.4:8080/bgolubic_aplikacija_2/api
+maksCekanje=0
+OpenSkyNetwork.korisnik=
+OpenSkyNetwork.lozinka=
+OpenWeatherMap.apikey=
+LocationIQ.apikey=

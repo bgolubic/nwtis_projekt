@@ -1,0 +1,7 @@
+cd /opt/payara-full-6.2023.4/glassfish/bin
+./asadmin start-domain
+
+tail -f /opt/payara-full-6.2023.4/glassfish/domains/domain1/logs/server.log
+
+glassfish jdbc datoteka ima nutra za bazu, treba promijenit naziv i lozinku u nwtis_2
+error za pinganje rjesenje - vj5 kopirati hsqldb jar (libs) u payara/glassfish/lib i restart servera

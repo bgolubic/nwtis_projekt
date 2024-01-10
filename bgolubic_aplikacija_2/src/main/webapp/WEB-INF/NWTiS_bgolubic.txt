@@ -1,0 +1,5 @@
+#NWTiS bgolubic 2023.
+#Thu Mar 23 14:51:16 CET 2023
+adresaPosluzitelja=10.0.2.15
+mreznaVrataPosluzitelja=8000
+maksCekanje=0

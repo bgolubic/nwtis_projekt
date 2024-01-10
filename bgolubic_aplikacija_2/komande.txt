@@ -1,0 +1,3 @@
+docker exec -it bgolubic_payara_micro /bin/sh
+
+
